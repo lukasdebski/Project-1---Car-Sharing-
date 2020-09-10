@@ -153,6 +153,15 @@
     letter-spacing: 2px;
 } 
 
+.blog__title--edit::before, .blog__title--edit::after {
+    content: "";
+    display: inline-block;
+    background-color: red;
+    width: 50px;
+    height: 4px;
+    margin: 10px;
+}
+
 .cards {
     display: flex;
     justify-content: space-between;
