@@ -200,3 +200,61 @@
     color: white;
     text-transform: uppercase;
 }
+
+.service {
+    background-color: #28272C;
+    min-height: 800px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: white; 
+}
+
+
+.service__title {
+    height: 200px;
+}
+
+.service__title--edit {
+    text-align: center;
+    line-height: 200px;
+    color: white;
+    font-size: 35px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+} 
+
+.service__title--edit::before, .service__title--edit::after {
+    content: "";
+    display: inline-block;
+    background-color: red;
+    width: 50px;
+    height: 4px;
+    margin: 10px;
+}
+
+.service__cards img {
+    width: 170px;
+}
+
+.service__cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.service__cards--edit {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+    height: 400px;
+    text-align: center;
+}
+
+.cards__title {
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
