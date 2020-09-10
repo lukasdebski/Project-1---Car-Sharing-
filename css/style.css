@@ -178,6 +178,10 @@
     font-weight: 700;
 }
 
+.blog__text {
+    color: #6a6a6a;
+}
+
 .blog__btn {
     border: none;
     width: 140px;
