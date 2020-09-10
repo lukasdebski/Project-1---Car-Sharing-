@@ -134,16 +134,16 @@
     cursor: pointer;
 }
 
-.service {
+.blog {
     height: 800px;
     font-family: 'Nunito Sans', sans-serif;
 }
 
-.service__title {
+.blog__title {
     height: 200px;
 }
 
-.service__title--edit {
+.blog__title--edit {
     text-align: center;
     line-height: 200px;
     color: black;
@@ -153,17 +153,17 @@
     letter-spacing: 2px;
 } 
 
-.blog {
+.cards {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.blog__cards img {
+.cards__box img {
     width: 100%;
 }
 
-.blog__cards {
+.cards__box {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -171,18 +171,18 @@
     height: 450px;
 }
 
-.blog__text--title {
+.cards__text--title {
     font-size: 19px;
     color: #6a6a6a;
     text-transform: uppercase;
     font-weight: 700;
 }
 
-.blog__text {
+.cards__text {
     color: #6a6a6a;
 }
 
-.blog__btn {
+.cards__btn {
     border: none;
     width: 140px;
     height: 40px;
