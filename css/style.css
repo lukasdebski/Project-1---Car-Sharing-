@@ -311,3 +311,62 @@
     font-weight: 900;
     align-self: flex-end;
 }
+
+/* FOOTER */
+
+footer {
+    background-color: #28272C;
+}
+
+.foot__title img {
+    height: 19px;
+}
+
+.foot__title {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.foot__title span {
+    color: red;
+    margin: 0 5px 0 5px;
+}
+
+.foot__menu {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+}
+
+.foot__menu--box {
+    display: flex;
+}
+
+.foot__menu--list1 {
+    margin-right: 40px;
+}
+
+.foot__menu li {
+    padding: 5px;
+}
+
+.foot__menu--copy {
+    align-self: flex-end;
+    padding: 5px;
+}
+
+
+
+
+
